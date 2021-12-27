@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_get_updates",
+  "info": {
+    "name": "getUpdates",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "checkUpdates": {
+      "type": "boolean"
+    },
+    "getUpdatesText": {
+      "type": "text"
+    }
+  }
+}

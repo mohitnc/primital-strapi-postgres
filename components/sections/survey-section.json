@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_sections_survey_sections",
+  "info": {
+    "name": "surveySection",
+    "icon": "eye-dropper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "surveyTitle": {
+      "type": "text"
+    },
+    "surveyDesc": {
+      "type": "text"
+    },
+    "surveyInputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.input"
+    },
+    "getUpdates": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.get-updates"
+    },
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    },
+    "workerImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

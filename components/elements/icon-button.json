@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_icon_buttons",
+  "info": {
+    "name": "iconButton",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "buttonIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

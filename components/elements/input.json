@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_inputs",
+  "info": {
+    "name": "input",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

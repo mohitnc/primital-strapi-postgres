@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "caret-square-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "copyrightText": {
+      "type": "text"
+    },
+    "primitallogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_linkedins",
+  "info": {
+    "name": "linkedin",
+    "icon": "arrow-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkedin": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.linkedln-card"
+    }
+  }
+}

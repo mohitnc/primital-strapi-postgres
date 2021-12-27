@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_sliders",
+  "info": {
+    "name": "slider",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "slider_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

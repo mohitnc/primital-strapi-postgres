@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_cookie_consents",
+  "info": {
+    "name": "cookie_consent",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "popup_text": {
+      "type": "string"
+    }
+  }
+}

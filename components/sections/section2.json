@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_sections_section2s",
+  "info": {
+    "name": "section2",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "image2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "heading1": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    }
+  }
+}

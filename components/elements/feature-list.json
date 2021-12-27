@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_feature_lists",
+  "info": {
+    "name": "featureList",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feat"
+    },
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

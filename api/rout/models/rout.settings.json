@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "routs",
+  "info": {
+    "name": "rout",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shortName": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metadata"
+    },
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.app-intro",
+        "sections.orbi-team",
+        "sections.slider",
+        "sections.feature-rows-group",
+        "sections.linkedln-card",
+        "sections.pricing",
+        "sections.testimonials-group",
+        "sections.subscribe",
+        "sections.section2",
+        "sections.app-glimpse",
+        "sections.cookie-consent",
+        "sections.survey-section",
+        "sections.lead-form",
+        "sections.feature-columns-group",
+        "sections.survey",
+        "sections.hero",
+        "sections.bottom-actions",
+        "sections.linkedin",
+        "sections.rich-text",
+        "layout.footer",
+        "sections.hero2",
+        "sections.linkedn"
+      ]
+    }
+  }
+}

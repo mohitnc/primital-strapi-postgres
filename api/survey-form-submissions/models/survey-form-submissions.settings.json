@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "survey_form_submissions",
+  "info": {
+    "name": "SurveyFormSubmissions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "regular_updates": {
+      "type": "boolean"
+    },
+    "email": {
+      "type": "email"
+    },
+    "answer1": {
+      "type": "string"
+    },
+    "answer2": {
+      "type": "string"
+    },
+    "answer3": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

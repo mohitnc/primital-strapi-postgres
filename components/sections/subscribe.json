@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_subscribes",
+  "info": {
+    "name": "subscribe",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subscribeTitle": {
+      "type": "text"
+    },
+    "subscribeDesc": {
+      "type": "text"
+    }
+  }
+}

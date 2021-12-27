@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "name": "Link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "aboutUs": {
+      "type": "string",
+      "required": true
+    },
+    "pricing": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "contactEmail": {
+      "type": "email"
+    }
+  }
+}

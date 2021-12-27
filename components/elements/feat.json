@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_feats",
+  "info": {
+    "name": "feat",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

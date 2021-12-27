@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_hero2s",
+  "info": {
+    "name": "Hero2",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "description1": {
+      "type": "string"
+    },
+    "description2": {
+      "type": "string"
+    },
+     "hero_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-list"
+    }
+  }
+}

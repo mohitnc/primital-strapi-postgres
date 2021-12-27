@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_sections_orbi_teams",
+  "info": {
+    "name": "orbiTeam",
+    "icon": "compress-arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "teamImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "teamTitle": {
+      "type": "string"
+    },
+    "teamDesc1": {
+      "type": "text"
+    },
+    "teamDesc2": {
+      "type": "text"
+    },
+    "linkedinIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "readMore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    }
+  }
+}

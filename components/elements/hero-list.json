@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_elements_hero_lists",
+  "info": {
+    "name": "hero-list",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.input"
+    },
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_survey_elements",
+  "info": {
+    "name": "surveyElement",
+    "icon": "file-signature"
+  },
+  "options": {},
+  "attributes": {
+    "input": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.input"
+    }
+  }
+}

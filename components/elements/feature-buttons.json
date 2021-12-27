@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_elements_feature_buttons",
+  "info": {
+    "name": "featureButtons",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "featureIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "featureTitle": {
+      "type": "string"
+    },
+    "featureMenuButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.icon-button"
+    }
+  }
+}

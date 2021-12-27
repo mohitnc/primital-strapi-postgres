@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_linkedln_cards",
+  "info": {
+    "name": "Linkedln-card",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "headingcontent": {
+      "type": "string"
+    },
+    "Profile_content": {
+      "type": "text"
+    },
+    "linkedln_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "profile_url": {
+      "type": "string"
+    }
+  }
+}

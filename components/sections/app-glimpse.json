@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_sections_app_glimpses",
+  "info": {
+    "name": "appGlimpse",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "collabImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title1": {
+      "type": "text"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "dollarImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "analyticsTitle": {
+      "type": "text"
+    },
+    "analyticsImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
